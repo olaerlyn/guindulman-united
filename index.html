@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guindulman United</title>
+</head>
+<body>
+    <!--Navbar desktop-->
+    <nav class="navbar">
+        <div><a href="#home"><img src="logo.png" alt="logo" class="logo"></a></div>
+        <button class="menu-toggle" onclick="openMenu()">☰</button>
+        <ul class="nav-links" id="navlinks">
+            <li class="links"><a href="#about">About</a></li>
+            <li class="links"><a href="#profile">Profile</a></li>
+            <li class="links"><a href="#gallery">Gallery</a></li>
+            <li class="links"><a href="#videos">Videos</a></li>
+        </ul>
+    </nav>
+
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="closeMenu()">×</button>
+        <a href="#about" onclick="closeMenu()">About</a>
+        <a href="#profile" onclick="closeMenu()">Profile</a>
+        <a href="#gallery" onclick="closeMenu()">Gallery</a>
+        <a href="#videos" onclick="closeMenu()">Videos</a>
+    </div>
+
+    <section class="section1" id="home">
+
+    </section>
+
+    <section class="section2" id="about">
+        <div class="aboutbox">
+        <div class="polariod">
+            <img src="cover1.png" alt="cover1" class="team-photo">
+            <div class="description">
+                <p style="font-weight: bold;">Guindulman United</p>
+            </div>
+        </div>
+       
+        <p class="abouttext">
+            <strong style="color: blue;">Guindulman United</strong> is a vibrant and passionate dance crew proudly representing the town of Guindulman, Bohol. We are a collective of talented dancers united by our shared love for movement, rhythm, and artistic expression. Specializing in diverse styles such as Vogue, Dancehall, Hip-Hop, and Sexy Dance, our group blends individuality and teamwork to create performances that are both technically impressive and emotionally captivating. <br> <br>
+            Since our founding in 2020, we have steadily built a reputation for delivering high-energy shows that fuse creativity, precision, and storytelling. Every performance we create is a testament to our belief that dance is more than just movement—it is a universal language that bridges cultural gaps, breaks barriers, and connects people from all walks of life. <br> <br>
+            At Guindulman United, we pour our hearts into every beat and every step. Our team dedicates countless hours to training, perfecting choreography, and experimenting with new concepts that challenge our limits and expand our artistry. From the smallest local events to larger stage productions, our goal remains the same: to inspire, to entertain, and to leave an unforgettable mark on every audience we encounter. <br> <br>
+            Beyond the stage, we are deeply committed to community and collaboration. We take pride in working alongside fellow artists, supporting local talent, and contributing to the growth of the performing arts in Bohol. Whether performing live, producing creative online content, or joining competitions, we aim to represent Guindulman with pride and passion. <br> <br>
+            As we continue to grow, we invite you to join us on this exciting journey. Follow our story, witness our evolution, and experience the joy, energy, and artistry that is Guindulman United—where every performance is a celebration of movement, music, and the spirit of unity.
+        </p>
+        </div>
+    </section>
+
+    <section class="section3" id="profile">
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                    <div class="counttext">1 / 7</div>
+                    <img src="img4.jpg" alt="mcking" style="height: 100%;">
+                    <div class="slidetext">Mcking</div>
+                </div>
+                
+                <div class="mySlides">
+                    <div class="counttext">2 / 7</div>
+                    <img src="img1.jpg" alt="ciara" style="height: 100%;">
+                    <div class="slidetext">Ciara, 24</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="counttext">3 / 7</div>
+                    <img src="img2.jpg" alt="roze" style="height: 100%;">
+                    <div class="slidetext">Rozelene, 24</div>
+                </div>
+                
+                <div class="mySlides">
+                    <div class="counttext">4 / 7</div>
+                    <img src="img3.jpg" alt="rhea" style="height: 100%;">
+                    <div class="slidetext">Rhea, 24</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="counttext">5 / 7</div>
+                    <img src="img5.jpg" alt="anzella" style="height: 100%;">
+                    <div class="slidetext">Anzella</div>
+                </div>
+
+                  <div class="mySlides">
+                    <div class="counttext">6 / 7</div>
+                    <img src="img6.jpg" alt="ricky" style="height: 100%;">
+                    <div class="slidetext">Ricky</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="counttext">7 / 7</div>
+                    <img src="img7.jpg" alt="princess" style="height: 100%;">
+                    <div class="slidetext">Princess</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="counttext">8 / 8</div>
+                    <img src="img8.jpg" alt="joshly" style="height: 100%;">
+                    <div class="slidetext">Joshly</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="counttext">9 / 9</div>
+                    <img src="img9.jpg" alt="giselle" style="height: 100%;">
+                    <div class="slidetext">Giselle</div>
+                </div>
+
+                <!--slider-->
+                <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!--dots-->
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+    </section>
+
+    <section class="section4" id="gallery">
+        <div class="gallery">
+            <img src="pic2.jpg" alt="pic2">
+            <img src="pic1.jpg" alt="pic1">
+            <img src="pic3.jpg" alt="pic3">
+            <img src="pic4.jpg" alt="pic4">
+            <img src="pic5.jpg" alt="pic5">
+            <img src="pic6.jpg" alt="pic6">
+            <img src="pic7.jpg" alt="pic7">
+            <img src="pic8.jpg" alt="pic8">
+            <img src="pic9.jpg" alt="pic9">
+            <img src="pic10.jpg" alt="pic10">
+            <img src="pic11.jpg" alt="pic11">
+            <img src="pic12.jpg" alt="pic12">
+        </div>
+    </section>
+
+    <section class="section5" id="videos">
+    <div class="vidbox">   
+       <div id="fb-root"></div>
+            <div class="fb-video" data-href="https://www.facebook.com/reel/382706150717281/" data-width="800" data-show-text="true"></div>
+        <div id="fb-root"></div>
+            <div class="fb-video" data-href="https://www.facebook.com/reel/1174106063319566/" data-width="800" data-show-text="true"></div>
+        <div id="fb-root"></div>
+            <div class="fb-video" data-href="https://www.facebook.com/reel/1660233274336383/" data-width="800" data-show-text="true"></div>
+        <div id="fb-root"></div>
+            <div class="fb-video" data-href="https://www.facebook.com/reel/622493372380738/" data-width="800" data-show-text="true"></div>
+        <div id="fb-root"></div>
+            <div class="fb-video" data-href="https://www.facebook.com/reel/594494161901375/" data-width="800" data-show-text="true"></div>
+    </div>
+
+    </section>
+
+
+
+
+
+    <script src="index.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
+</body>
+</html>
